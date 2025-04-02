@@ -106,78 +106,8 @@ export const doctors = [
     },
     {
         _id: 'doc2',
-        name: 'Dr. Sunita Kapoor',
-        image: doc2,
-        speciality: 'Gynecologist',
-        degree: 'MBBS, MD',
-        experience: '12 Years',
-        about: 'Dr. Sunita Kapoor is an expert in women’s health, high-risk pregnancies, and fertility treatments.',
-        fees: 1000,
-        address: {
-            line1: 'Max Hospital, Saket',
-            line2: 'New Delhi, India'
-        }
-    },
-    {
-        _id: 'doc3',
-        name: 'Dr. Aman Verma',
-        image: doc3,
-        speciality: 'Dermatologist',
-        degree: 'MBBS, MD',
-        experience: '8 Years',
-        about: 'Dr. Aman Verma is a leading dermatologist specializing in skin care, cosmetic treatments, and laser surgeries.',
-        fees: 900,
-        address: {
-            line1: 'BLK Hospital, Rajendra Place',
-            line2: 'New Delhi, India'
-        }
-    },
-    {
-        _id: 'doc4',
-        name: 'Dr. Priya Sharma',
-        image: doc4,
-        speciality: 'Pediatricians',
-        degree: 'MBBS, MD',
-        experience: '10 Years',
-        about: 'Dr. Priya Sharma is a trusted pediatrician, ensuring quality care for infants and children.',
-        fees: 850,
-        address: {
-            line1: 'Fortis Hospital, Gurgaon',
-            line2: 'Haryana, India'
-        }
-    },
-    {
-        _id: 'doc5',
-        name: 'Dr. Rakesh Gupta',
-        image: doc5,
-        speciality: 'Neurologist',
-        degree: 'MBBS, DM',
-        experience: '18 Years',
-        about: 'Dr. Rakesh Gupta is a leading neurologist specializing in treating brain disorders and neurodegenerative diseases.',
-        fees: 1500,
-        address: {
-            line1: 'Medanta, The Medicity',
-            line2: 'Gurgaon, India'
-        }
-    },
-    {
-        _id: 'doc6',
-        name: 'Dr. Meena Saxena',
-        image: doc6,
-        speciality: 'Gastroenterologist',
-        degree: 'MBBS, DM',
-        experience: '14 Years',
-        about: 'Dr. Meena Saxena is a leading gastroenterologist specializing in digestive health, liver diseases, and endoscopy.',
-        fees: 1200,
-        address: {
-            line1: 'Indraprastha Apollo',
-            line2: 'New Delhi, India'
-        }
-    },
-    {
-        _id: 'doc13',
         name: 'Dr. Karan Mehta',
-        image: doc13,
+        image: doc2,
         speciality: 'General physician',
         degree: 'MBBS, MD',
         experience: '19 Years',
@@ -189,9 +119,23 @@ export const doctors = [
         }
     },
     {
-        _id: 'doc14',
+        _id: 'doc3',
+        name: 'Dr. Sunita Kapoor',
+        image: doc3,
+        speciality: 'Gynecologist',
+        degree: 'MBBS, MD',
+        experience: '12 Years',
+        about: 'Dr. Sunita Kapoor is an expert in women’s health, high-risk pregnancies, and fertility treatments.',
+        fees: 1000,
+        address: {
+            line1: 'Max Hospital, Saket',
+            line2: 'New Delhi, India'
+        }
+    },
+    {
+        _id: 'doc4',
         name: 'Dr. Shalini Rao',
-        image: doc14,
+        image: doc4,
         speciality: 'Gynecologist',
         degree: 'MBBS, MD',
         experience: '21 Years',
@@ -203,9 +147,23 @@ export const doctors = [
         }
     },
     {
-        _id: 'doc15',
+        _id: 'doc5',
+        name: 'Dr. Aman Verma',
+        image: doc5,
+        speciality: 'Dermatologist',
+        degree: 'MBBS, MD',
+        experience: '8 Years',
+        about: 'Dr. Aman Verma is a leading dermatologist specializing in skin care, cosmetic treatments, and laser surgeries.',
+        fees: 900,
+        address: {
+            line1: 'BLK Hospital, Rajendra Place',
+            line2: 'New Delhi, India'
+        }
+    },
+    {
+        _id: 'doc6',
         name: 'Dr. Aditya Kashyap',
-        image: doc15,
+        image: doc6,
         speciality: 'Dermatologist',
         degree: 'MBBS, MD',
         experience: '9 Years',
@@ -215,5 +173,132 @@ export const doctors = [
             line1: 'Paras Hospital',
             line2: 'Gurgaon, India'
         }
+    },
+    {
+        _id: 'doc7',
+        name: 'Dr. Priya Sharma',
+        image: doc7,
+        speciality: 'Pediatricians',
+        degree: 'MBBS, MD',
+        experience: '10 Years',
+        about: 'Dr. Priya Sharma is a trusted pediatrician, ensuring quality care for infants and children.',
+        fees: 850,
+        address: {
+            line1: 'Fortis Hospital, Gurgaon',
+            line2: 'Haryana, India'
+        }
+    },
+    {
+        _id: 'doc8',
+        name: 'Dr. Ramesh Tiwari',
+        image: doc8,
+        speciality: 'Pediatricians',
+        degree: 'MBBS, MD',
+        experience: '16 Years',
+        about: 'Dr. Ramesh Tiwari specializes in neonatal care and child health development.',
+        fees: 950,
+        address: {
+            line1: 'Apollo Hospitals',
+            line2: 'Bangalore, India'
+        }
+    },
+    {
+        _id: 'doc9',
+        name: 'Dr. Rakesh Gupta',
+        image: doc9,
+        speciality: 'Neurologist',
+        degree: 'MBBS, DM',
+        experience: '18 Years',
+        about: 'Dr. Rakesh Gupta is a leading neurologist specializing in treating brain disorders and neurodegenerative diseases.',
+        fees: 1500,
+        address: {
+            line1: 'Medanta, The Medicity',
+            line2: 'Gurgaon, India'
+        }
+    },
+    {
+        _id: 'doc10',
+        name: 'Dr. Sanjay Bhardwaj',
+        image: doc10,
+        speciality: 'Neurologist',
+        degree: 'MBBS, DM',
+        experience: '20 Years',
+        about: 'Dr. Sanjay Bhardwaj has expertise in stroke management and epilepsy treatment.',
+        fees: 1600,
+        address: {
+            line1: 'KIMS Hospital',
+            line2: 'Hyderabad, India'
+        }
+    },
+    {
+        _id: 'doc11',
+        name: 'Dr. Meena Saxena',
+        image: doc11,
+        speciality: 'Gastroenterologist',
+        degree: 'MBBS, DM',
+        experience: '14 Years',
+        about: 'Dr. Meena Saxena is a leading gastroenterologist specializing in digestive health, liver diseases, and endoscopy.',
+        fees: 1200,
+        address: {
+            line1: 'Indraprastha Apollo',
+            line2: 'New Delhi, India'
+        }
+    },
+    {
+        _id: 'doc12',
+        name: 'Dr. Vinod Mishra',
+        image: doc12,
+        speciality: 'Gastroenterologist',
+        degree: 'MBBS, DM',
+        experience: '17 Years',
+        about: 'Dr. Vinod Mishra specializes in treating gastric disorders, pancreatic diseases, and hepatology.',
+        fees: 1300,
+        address: {
+            line1: 'Narayana Health',
+            line2: 'Mumbai, India'
+        }
+    },
+    {
+        _id: 'doc13',
+        name: 'Dr. Anjali Sinha',
+        image: doc13,
+        speciality: 'Gynecologist',
+        degree: 'MBBS, MD',
+        experience: '14 Years',
+        about: 'Dr. Anjali Sinha specializes in high-risk pregnancies, PCOS management, and women’s wellness.',
+        fees: 1100,
+        address: {
+            line1: 'Cloudnine Hospital',
+            line2: 'Pune, India'
+        }
+    },
+    {
+        _id: 'doc14',
+        name: 'Dr. Arvind Patel',
+        image: doc14,
+        speciality: 'General physician',
+        degree: 'MBBS, MD',
+        experience: '11 Years',
+        about: 'Dr. Arvind Patel provides expert consultations for general illnesses, diabetes, and hypertension.',
+        fees: 850,
+        address: {
+            line1: 'Manipal Hospital',
+            line2: 'Bangalore, India'
+        }
+    },
+    {
+        _id: 'doc15',
+        name: 'Dr. Neha Chaturvedi',
+        image: doc15,
+        speciality: 'Dermatologist',
+        degree: 'MBBS, MD',
+        experience: '10 Years',
+        about: 'Dr. Neha Chaturvedi is a specialist in acne treatment, pigmentation correction, and cosmetic dermatology.',
+        fees: 950,
+        address: {
+            line1: 'Columbia Asia',
+            line2: 'Chennai, India'
+        }
     }
 ];
+
